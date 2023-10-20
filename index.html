@@ -8,77 +8,135 @@
     </script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/style.css">
-    <style>
-        /* CSS para a barra lateral */
-        .sidebar {
-            height: 100%;
-            width: 250px;
-            position: fixed;
-            top: 0;
-            left: -250px;
-            background-color: #333;
-            transition: 0.3s;
-            padding-top: 20px;
-        }
-
-        .sidebar a {
-            padding: 10px 25px;
-            text-align: left;
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
-            display: block;
-        }
-
-        .open-menu {
-            left: 0;
-        }
-        
-        /* Estilo para o cabeçalho */
-        header {
-            background-color: black; /* Define a cor preta */
-            color: white; /* Define a cor do texto como branco */
-            padding: 10px;
-            text-align: center;
-            cursor: pointer;
-        }
-        
-        /* Estilo para o rodapé */
-        footer {
-            background-color: black; /* Define a cor preta */
-            color: white; /* Define a cor do texto como branco */
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
-    <script>
-        // Função para abrir/fechar a barra lateral
-        function toggleSidebar() {
-            var sidebar = document.querySelector('.sidebar');
-            sidebar.classList.toggle('open-menu');
-        }
-    </script>
 </head>
+
 <body>
-    <div class="row">
-        <!-- Barra lateral -->
-        <div class="sidebar">
-            <a href="/nutriverdeStore.html">Consultoria Anbiental</a>
-            <a href="/voceSabia.html">quem somos</a>
-            <a href="/faleConosco.html">fale conosco</a>
+        <div class="row">
+            <!-- Barra lateral -->
+            <div class="sidebar">
+                <a href="/nutriverdeStore.html">Consultoria Anbiental</a>
+                <a href="/voceSabia.html">quem somos</a>
+                <a href="/faleConosco.html">fale conosco</a>
+            </div>
+
+            <header>
+                <h1 onclick="toggleSidebar()"> <img src="" alt=""> ☰ Consultoria Anbiental</h1>
+            </header>
         </div>
 
-        <header>
-            <h1 onclick="toggleSidebar()">☰ Consultoria Anbiental</h1>
-        </header>
-    </div>
-
-    <footer class="pe">
         <div class="row">
-            <div class="col-md-12">
-                <p>&copy; 2023 NutriVerde</p>
+            <div class="col">
+                <img src="/fotos/anjos.png" alt="">
             </div>
         </div>
-    </footer>
+
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+
+                <div class="borda">
+                    <h1>Apresentaçao</h1>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+                <div class="texto">          
+                    <p> Anjos Ambiental é uma empresa que visa manter o equilíbrio entre o meio social,
+                        ambiental e econômico na execução de seus serviços, enfatizando sempre, nos melhores
+                        resultados ao empreendimento. Atuamos na área de Educação, Meio Ambiente e
+                        Desenvolvimento Socioambiental e Econômico. </p>
+                </div> 
+            </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+
+                <div class="borda">
+                    <h1>Missão</h1>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+                <div class="texto">          
+                    <p> Ter os melhores resultados para o empreendimento e manter sempre o equilíbrio
+                        entre o meio social, ambiental e econômico.
+                         </p>
+                </div> 
+            </div>
+            </div>
+        </div>
+
+        
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+
+                <div class="borda">
+                    <h1>Visão</h1>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+                <div class="texto">          
+                    <p>Ser uma empresa de referência no Brasil em desenvolvimento de ações
+                        ambientais, sociais e econômicas.</p>
+                </div> 
+            </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+
+                <div class="borda">
+                    <h1>Valores</h1>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+            <div class="col">
+                <div class="texto">          
+                    <p>A Anjos Ambiental preza pela eficiência, rapidez e qualidade dos serviços
+                        prestados, com transparência e responsabilidade na condução das suas atribuições.</p>
+                </div> 
+            </div>
+            </div>
+        </div>
+
+    
+
+
+        <footer class="pe">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2023 NutriVerde</p>
+                </div>
+            </div>
+        </footer>
+
+   <script src="/script.js"></script>
 </body>
 </html>
