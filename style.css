@@ -59,7 +59,11 @@ img {
     color: #fff; /* Cor do texto ao passar o mouse */
 }
 .borda {
-    border: 2px solid green;
+    border: 3px solid green;
     padding: 40px; /* Adicione preenchimento para criar um espaço entre a borda e o conteúdo */
+  }
+  .borda2 {
+    border: 4px solid green;
+    padding: 15px; /* Adicione preenchimento para criar um espaço entre a borda e o conteúdo */
   }
   
