@@ -21,3 +21,13 @@
             // Redirecionar o usuário para o link do WhatsApp
             window.location.href = linkWhatsApp;
     }
+        function abrirPerfilInstagram() {
+            // Nome de usuário do Instagram (no exemplo, "ambientalanjos")
+            var usuarioInstagram = 'ambientalanjos';
+
+            // Montar o link do Instagram
+            var linkInstagram = 'https://www.instagram.com/' + usuarioInstagram;
+
+            // Redirecionar o usuário para o link do Instagram
+            window.location.href = linkInstagram;
+    }
