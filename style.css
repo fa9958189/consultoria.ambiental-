@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: -250px;
-    background-color: #333;
+    background-color: green;
     transition: 0.3s;
     padding-top: 20px;
 }
@@ -24,7 +24,7 @@
 
 /* Estilo para o cabeçalho */
 header {
-    background-color: black; /* Define a cor preta */
+    background-color: green; /* Define a cor preta */
     color: white; /* Define a cor do texto como branco */
     padding: 10px;
     text-align: center;
@@ -33,7 +33,7 @@ header {
 
 /* Estilo para o rodapé */
 footer {
-    background-color: black; /* Define a cor preta */
+    background-color:  green; /* Define a cor preta */
     color: white; /* Define a cor do texto como branco */
     text-align: center;
     padding: 10px;
@@ -98,3 +98,8 @@ input[type="submit"] {
     color: white
 
 }
+.lock{
+    background-color: green ;
+    color:white;
+}
+  
