@@ -111,7 +111,7 @@ input[type="submit"] {
     position: relative; /* Posição absoluta para animar */
     top: 15;
     left: 20;
-    animation: expandLine 3s linear forwards; /* Duração da animação e nome da animação */
+    animation: expandLine 15s linear forwards; /* Duração da animação e nome da animação */
 }
 
 @keyframes expandLine {
@@ -122,23 +122,23 @@ input[type="submit"] {
         width: 100%; /* A largura chega a 100% */
     }
 }
-.dragon {
-    position: relative;
-    overflow: hidden;
-}
-
-.dragon video {
-    position: absolute;
+#video-bg {
+    position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
+    min-width: 50%;
+    min-height: 50%;
     z-index: -1;
 }
-.dragon {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
+  .fundo {
+    background-image: url('/fotos/floresta.png');
+    background-size: cover; /* Isso faz a imagem cobrir todo o elemento */
+    background-position: center center; /* Isso centraliza a imagem no elemento */
+    border: 3px solid rgb(0, 73, 0);
+    padding: 40px; /* Adicione preenchimento para criar um espaço entre a borda e o conteúdo */
+  }
+
+
+
+
+
