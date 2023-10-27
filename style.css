@@ -122,3 +122,23 @@ input[type="submit"] {
         width: 100%; /* A largura chega a 100% */
     }
 }
+.dragon {
+    position: relative;
+    overflow: hidden;
+}
+
+.dragon video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.dragon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
