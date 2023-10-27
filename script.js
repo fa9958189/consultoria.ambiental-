@@ -1,30 +1,3 @@
-        const photoContainer = document.querySelector('.photo-container');
-        const popup = document.getElementById('myPopup');
-        const closePopup = document.getElementById('closePopup');
-        const closeButton = document.getElementById('closeButton');
-
-        photoContainer.addEventListener('click', () => {
-            popup.style.display = 'block';
-        });
-
-        closePopup.addEventListener('click', () => {
-            // Evite fechar o popup quando clicar em closePopup (X)
-            event.stopPropagation();
-        });
-
-        closeButton.addEventListener('click', () => {
-            popup.style.display = 'none';
-        });
-
-        // Feche o popup se o usuário clicar fora da imagem
-        window.addEventListener('click', (event) => {
-            if (event.target === popup) {
-                popup.style.display = 'none';
-            }
-        });
-
-
-
        function toggleSidebar() {
         var sidebar = document.querySelector('.sidebar');
         sidebar.classList.toggle('open-menu');
