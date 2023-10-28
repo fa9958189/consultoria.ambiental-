@@ -145,6 +145,21 @@ input[type="submit"] {
     padding: 10px; /* Adicione preenchimento para criar um espaço entre a borda e o conteúdo */
     margin: 20px; /* Adiciona margem para espaçamento */
   }
+  .video-localizaçao {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+}
+
+/* Estilo para o vídeo dentro do container */
+.video-localizaçao video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
