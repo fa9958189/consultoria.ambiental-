@@ -32,6 +32,9 @@ header {
     text-align: center;
     cursor: pointer;
 }
+body {
+    background-color: black;
+}
 
 /* Estilo para o rodapé */
 footer {
@@ -122,14 +125,7 @@ input[type="submit"] {
         width: 100%; /* A largura chega a 100% */
     }
 }
-#video-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 50%;
-    min-height: 50%;
-    z-index: -1;
-}
+
   .fundo {
     background-image: url('/fotos/floresta.png');
     background-size: cover; /* Isso faz a imagem cobrir todo o elemento */
