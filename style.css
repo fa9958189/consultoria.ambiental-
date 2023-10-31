@@ -242,7 +242,25 @@ input[type="submit"]:hover {
     border-radius: 50%;
     margin: 5px;
   }
+  /* Estilize o modal */
+.modal-dialog {
+    max-width: 90%;
+  }
   
+  .modal-content {
+    text-align: center;
+  }
+  
+  .modal-body {
+    padding: 0;
+  }
+  
+  #modalImage {
+    max-width: 100%;
+    max-height: 80vh;
+    margin: 0 auto;
+    display: block;
+  }
   
 
 
